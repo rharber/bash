@@ -1,0 +1,6 @@
+[alias]
+	co = checkout
+[core]
+[user]
+	name = rharber
+	email = ryanharber@gmail.com
