@@ -1,5 +1,9 @@
 [alias]
 	co = checkout
+	coa = !git add -A && git commit -m
+	tree = log --graph --pretty=oneline --abbrev-commit
+	last = log -1 HEAD --pretty=oneline --abbrev-commit
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 [core]
 [user]
 	name = rharber
