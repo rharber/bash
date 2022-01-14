@@ -248,7 +248,7 @@ PS1="\[\033]0;\W\007\]"; # working directory base name
 PS1+="\[${GREEN}\]\w"; # working directory full path
 PS1+="\$(prompt_git \"\[${WHITE}\] \[${PURPLE}\]\" \"\[${BLUE}\]\")"; # Git repository details
 # PS1+="\[${RESETCOLOR}\]\n"; # newline
-PS1+="\[${WHITE}\] >> \[${RESETCOLOR}\]"; # `$` (and reset color)
+PS1+="\[${WHITEBOLD}\] >> \[${RESETCOLOR}\]"; # `$` (and reset color)
 export PS1;
 }
 
