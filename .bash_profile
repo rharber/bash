@@ -12,6 +12,7 @@ if [[ $(uname -s) == Darwin ]]; then
 fi;
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
+export PATH="/usr/local/bin:$PATH"
 
 alias ..='cd ..'
 alias cl='clear'
