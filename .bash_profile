@@ -13,6 +13,8 @@ fi;
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export PATH="/usr/local/bin:$PATH"
+eval $(/opt/homebrew/bin/brew shellenv)
+
 
 alias ..='cd ..'
 alias cl='clear'
